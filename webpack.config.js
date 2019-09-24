@@ -10,7 +10,7 @@ const dirNode = 'node_modules';
 const dirApp = path.join(__dirname, 'app');
 const dirAssets = path.join(__dirname, 'assets');
 
-const appHtmlTitle = 'Jump Into The Cloud';
+const appHtmlTitle = 'CLVR: Cloud Providers and Regions';
 
 /**
  * Webpack Configuration

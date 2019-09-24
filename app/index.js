@@ -24,7 +24,7 @@ import clvrcloud from './providers/clvrcloud.json';
 // ==============================
 
 let map;
-const providers = [aws, azure, digitalocean, gc, catalystcloud, clvrcloud];
+const providers = [aws, azure, digitalocean, gc, catalystcloud];
 const markers = [];
 let context = '';
 const template = Handlebars.compile(`<li id="{{name}}-button" class="{{show}}">
