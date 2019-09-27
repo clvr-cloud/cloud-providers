@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    kubernetes.io/tls-acme: "true"
+    certmanager.k8s.io/acme-challenge-type: http01
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/secure-backends: "true"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  labels:
+    name: cloud-providers
+  name: providers
+spec:
+  rules:
+  - host: providers.clvr.cloud
+    http:
+      paths:
+      - backend:
+          serviceName: cloud-provider
+          servicePort: 80
+        path: /
+  tls:
+  - hosts:
+    - providers.clvr.cloud
+    secretName: providers.clvr.cloud-tls
