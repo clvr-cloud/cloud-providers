@@ -39,6 +39,7 @@ let showProviders = getUrlParam('show','all').split("+");
 function initMap() {
   // Initialize the map.
   map = new google.maps.Map(document.getElementById('map'), {
+    mapTypeId: 'satellite',
     zoom: 3,
     center: {lat: 0, lng: 0},
     gestureHandling: 'cooperative' // On a mobile device, the user must swipe with one finger to scroll the page and two fingers to pan the map.
