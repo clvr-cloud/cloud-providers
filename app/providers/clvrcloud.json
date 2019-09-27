@@ -1,0 +1,35 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": true,
+    "hasStorageOptions": false,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "CLVR",
+    "providerId": "clvr",
+    "regions": [
+        {
+            "city": "Salta",
+            "country": "SLA",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -24.782932,
+            "locationLong": -65.412155,
+            "planned": false,
+            "providerCode": "ar-sla-1",
+            "providerCodeApi": "ar-sla-1",
+            "regions": [
+                "america_south",
+                "america"
+            ],
+            "special": true
+        }
+    ],
+    "serviceId": "Kubernetes",
+    "shortName": "CLVR",
+    "sla": 99.999,
+    "slaDescription": "CatalystCloud will guarantee 100% virtual server and network availability to the Customer. The network will be deemed available if UpCloud's routers and switches are available and responding properly. For all unscheduled interruptions in the provision of the Services, which are due to hardware or telecommunications failures that last longer than 5 minutes, UpCloud shall offer compensation to the Customer.",
+    "slaLink": "https://cloud.catalyst.net.nz",
+    "type": "compute"
+}

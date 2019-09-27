@@ -1,0 +1,71 @@
+{
+    "beta": false,
+    "fedramp": false,
+    "hasBandwidthPricing": true,
+    "hasDnsPricing": true,
+    "hasStorageOptions": false,
+    "hasWebProbe": true,
+    "hasWebProbeSsl": true,
+    "name": "CatalystCloud",
+    "providerId": "catalyst",
+    "regions": [
+        {
+            "city": "Hamilton",
+            "country": "NZ",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -37.7779,
+            "locationLong": 175.25975,
+            "planned": false,
+            "providerCode": "nz-hlz-1",
+            "providerCodeApi": "nz-hlz-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": false
+        },
+        {
+            "city": "Wellington",
+            "country": "NZ",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -41.28664,
+            "locationLong": 174.77557,
+            "planned": false,
+            "providerCode": "nz_wlg_2",
+            "providerCodeApi": "nz_wlg_2",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": true
+        },
+        {
+            "city": "Porirua",
+            "country": "NZ",
+            "estimated": false,
+            "facilities": 1,
+            "locationLat": -41.104126,
+            "locationLong": 174.873596,
+            "planned": false,
+            "providerCode": "nz-por-1",
+            "providerCodeApi": "nz-por-1",
+            "regions": [
+                "asia",
+                "asia_apac",
+                "oceania"
+            ],
+            "special": true
+        }
+    ],
+    "serviceId": "Kubernetes",
+    "shortName": "Catalyst",
+    "sla": 99.999,
+    "slaDescription": "CatalystCloud will guarantee 100% virtual server and network availability to the Customer. The network will be deemed available if UpCloud's routers and switches are available and responding properly. For all unscheduled interruptions in the provision of the Services, which are due to hardware or telecommunications failures that last longer than 5 minutes, UpCloud shall offer compensation to the Customer.",
+    "slaLink": "https://cloud.catalyst.net.nz",
+    "website": "https://cloud.catalyst.net.nz",
+    "type": "compute"
+}

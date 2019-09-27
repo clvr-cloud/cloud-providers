@@ -16,13 +16,15 @@ import interoute from './providers/interoute.json';
 import oracle from './providers/oracle.json';
 import rackspace from './providers/rackspace.json';
 import upcloud from './providers/upcloud.json';
+import catalystcloud from './providers/catalystcloud.json';
+import clvrcloud from './providers/clvrcloud.json';
 
 // ==============================
 // DEFINE VARIABLES AND CONSTANTS
 // ==============================
 
 let map;
-const providers = [alibaba, aws, azure, digitalocean, gc, interoute, oracle, rackspace, upcloud];
+const providers = [aws, azure, digitalocean, gc, catalystcloud];
 const markers = [];
 let context = '';
 const template = Handlebars.compile(`<li id="{{name}}-button" class="{{show}}">
